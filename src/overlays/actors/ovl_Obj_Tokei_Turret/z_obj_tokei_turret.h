@@ -6,9 +6,9 @@
 struct ObjTokeiTurret;
 
 typedef struct ObjTokeiTurret {
-    /* 0x000 */ Actor actor;
-    /* 0x144 */ char unk_144[0x18];
-} ObjTokeiTurret; // size = 0x15C
+    /* 0x000 */ DynaPolyActor dyna;
+    /* 0x15C */ UNK_TYPE1 unk_15C[0x4];
+} ObjTokeiTurret; // size = 0x160
 
 extern const ActorInit Obj_Tokei_Turret_InitVars;
 
